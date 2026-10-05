@@ -3,6 +3,10 @@
   text-transform: uppercase;
 }
 
+.branch-info{
+  margin: 0px;
+}
+
 .site-footer {
   background: linear-gradient(180deg, #f57c00, #d32f2f);
   color: #fff;

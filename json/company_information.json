@@ -1,6 +1,6 @@
 {
     "company_name": "Classy",
-    "parent_company_name" : "JumboMaster Group of Companies Pvt Ltd",
+    "parent_company_name" : "Jumbo Master Group of Companies",
     "logo" : "/assets/image/logo/Classy.jpeg",
     "hero_image" : "/assets/image/logo/Classy.jpeg",
     "address" : "Shop No. 6, Plot No. 74-0, Near Al Jazeera Hotel, Deira, Al Ras, Dubai, UAE (PO Box 64531)",
@@ -15,7 +15,16 @@
     "branches" : [
         {
             "country" : "ae",
-            "branch_name" : "India Branch",
+            "branch" : "Dubai Office",
+            "branch_name" : "Jumbo Master General Trading LLC",
+            "address" : "Shop No. 6, Plot No. 74-0, Near Al Jazeera Hotel, Deira, Al Ras, Dubai, UAE (PO Box 64531)",
+            "phone" : "+971-4-3971868",
+            "email" : "info@classyjumbo.com"
+        },
+        {
+            "country" : "in",
+            "branch" : "India Branch",
+            "branch_name" : "JumboMaster Group of Companies Pvt Ltd",
             "address" : "ELEMENTS MALL, 7th floor office no-725 DCM, AJMER ROAD, JAIPUR RAJASTHAN, PIN-302021",
             "phone" : "+919772923303",
             "email" : "info@classyjumbo.in"

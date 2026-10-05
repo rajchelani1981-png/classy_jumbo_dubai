@@ -34,9 +34,16 @@ function renderFooter(data, menu) {
   const contact = data.contact?.[0] || {};
   const branchesHtml = (data.branches || [])
   .map(branch => `
-    <h5 class="branch-title">${branch.branch_name}</h5>
-    <p>
+    <h4 class="branch-title">${branch.branch}</h4>
+    <h5 class="branch-info branch-name">${branch.branch_name}</h5>
+    <p class="branch-info">
       ${branch.address}
+    </p>
+    <p class="branch-info">
+      📞 <a href="tel:${branch.phone}">${branch.phone}</a>
+    </p>
+    <p class="branch-info">
+      ✉️ <a href="mailto:${branch.email}">${branch.email}</a>
     </p>
   `)
   .join('');
@@ -58,9 +65,8 @@ function renderFooter(data, menu) {
           <!-- Address -->
           <div class="footer-col">
             <h4>Address</h4><br>
-            <strong>${data.parent_company_name}</strong>
-            <p>${data.address}</p>
-
+            <strong>${data.parent_company_name}</strong><br>
+            
             ${branchesHtml}
           </div>
 
