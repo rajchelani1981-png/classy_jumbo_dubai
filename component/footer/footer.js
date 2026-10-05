@@ -48,6 +48,8 @@ function renderFooter(data, menu) {
   `)
   .join('');
 
+  const companyPhoneNumbersHtml = (contact.phone || []).map(phone => `<p>📞 <a href="tel:${phone}">${phone}</a></p>`).join('');
+
   return `
     <div class="site-footer">
       <div class="footer-top">
@@ -73,7 +75,7 @@ function renderFooter(data, menu) {
           <!-- Contact -->
           <div class="footer-col">
             <h4>Customer Support</h4>
-            <p>📞 <a href="tel:${contact.phone}">${contact.phone}</a></p>
+            ${companyPhoneNumbersHtml}
             <p>✉️ <a href="mailto:${contact.email}">${contact.email}</a></p>
           </div>
 

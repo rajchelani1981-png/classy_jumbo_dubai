@@ -8,7 +8,7 @@
     "contact" : [
         {
             "country" : "ae",
-            "phone" : "+971-4-222-3333",
+            "phone" : ["+971-56-9506776", "+971-50-2042697"],
             "email" : "info@classyjumbo.com"
         }
     ],
