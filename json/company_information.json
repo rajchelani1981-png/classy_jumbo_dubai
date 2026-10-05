@@ -3,22 +3,22 @@
     "parent_company_name" : "JumboMaster Group of Companies Pvt Ltd",
     "logo" : "/assets/image/logo/Classy.jpeg",
     "hero_image" : "/assets/image/logo/Classy.jpeg",
-    "address" : "ELEMENTS MALL, 7th floor office no-725 DCM, AJMER ROAD, JAIPUR RAJASTHAN, PIN-302021",
+    "address" : "Shop No. 6, Plot No. 74-0, Near Al Jazeera Hotel, Deira, Al Ras, Dubai, UAE (PO Box 64531)",
     "manufacture" : "Manufacturing and distribution of confectionery and food items such as biscuits, cookies, jam, noodles, wafer, cereals, peanut butter, chips, and all kind of confectionery & food products.",
     "contact" : [
         {
-            "country" : "in",
-            "phone" : "+919772923303",
-            "email" : "info@classyjumbo.in"
+            "country" : "ae",
+            "phone" : "+971-4-222-3333",
+            "email" : "info@classyjumbo.com"
         }
     ],
     "branches" : [
         {
             "country" : "ae",
-            "branch_name" : "Dubai Branch",
-            "address" : "Shop No. 6, Plot No. 74-0, Near Al Jazeera Hotel, Deira, Al Ras, Dubai, UAE (PO Box 64531)",
-            "phone" : "+971 4 222 3333",
-            "email" : "info@dubai@classyjumbo.in"
+            "branch_name" : "India Branch",
+            "address" : "ELEMENTS MALL, 7th floor office no-725 DCM, AJMER ROAD, JAIPUR RAJASTHAN, PIN-302021",
+            "phone" : "+919772923303",
+            "email" : "info@classyjumbo.in"
         }
     ]
 }
