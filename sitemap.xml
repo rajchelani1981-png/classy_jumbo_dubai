@@ -1,273 +1,285 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://classyjumbo.in/</loc>
-    <lastmod>2026-02-07T09:22:04+00:00</lastmod>
+    <loc>https://classyjumbo.com/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/home</loc>  
+    <loc>https://classyjumbo.com/about/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product</loc>  
+    <loc>https://classyjumbo.com/contact/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/cookies</loc>  
+    <loc>https://classyjumbo.com/distributor/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/cookies/flavour-almond</loc>  
+    <loc>https://classyjumbo.com/exportenquiry/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/cookies/flavour-cashew</loc>  
+    <loc>https://classyjumbo.com/home/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/cookies/flavour-cashew pista</loc>
+    <loc>https://classyjumbo.com/more/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/cookies/flavour-pista</loc>
+    <loc>https://classyjumbo.com/more/award/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/cookies/flavour-dry fruit</loc>
+    <loc>https://classyjumbo.com/more/exhibition/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/cookies/flavour-tutti frutti</loc>
+    <loc>https://classyjumbo.com/policy/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/wafer</loc>
+    <loc>https://classyjumbo.com/product/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/wafer/flavour-cheese cream</loc>  
+    <loc>https://classyjumbo.com/product/biscuits/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/wafer/flavour-chocolate</loc>
+    <loc>https://classyjumbo.com/product/biscuits/category-cookies/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/wafer/flavour-cookies and cream</loc>
+    <loc>https://classyjumbo.com/product/biscuits/category-cream/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/wafer/flavour-mango</loc>
+    <loc>https://classyjumbo.com/product/biscuits/flavour-biskoft/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/wafer/flavour-orange</loc>
+    <loc>https://classyjumbo.com/product/biscuits/flavour-shortbread-butter/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/wafer/flavour-oreo and cream</loc>
+    <loc>https://classyjumbo.com/product/cereals/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/wafer/flavour-peanut butter</loc>  
+    <loc>https://classyjumbo.com/product/cereals/category-choco-flakes/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/wafer/flavour-Pineapple</loc>
+    <loc>https://classyjumbo.com/product/cereals/category-corn-flakes/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/wafer/flavour-strawberry</loc>
+    <loc>https://classyjumbo.com/product/cereals/category-fruit-rings/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/wafer/flavour-vanilla</loc>  
+    <loc>https://classyjumbo.com/product/cereals/category-mini-choco-balls/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/jam</loc>  
+    <loc>https://classyjumbo.com/product/cereals/category-muesli/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/jam/flavour-blueberry</loc>  
+    <loc>https://classyjumbo.com/product/chips/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/jam/flavour-pineapple</loc>
+    <loc>https://classyjumbo.com/product/chips/category-potato-sticks/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/jam/flavour-orange</loc>
+    <loc>https://classyjumbo.com/product/chips/category-tin-chips/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/jam/flavour-apricot</loc>
+    <loc>https://classyjumbo.com/product/chips/flavour-chessy-cheddar/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/jam/flavour-mix fruits</loc>
+    <loc>https://classyjumbo.com/product/chips/flavour-chilli-lemon/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/jam/flavour-mango</loc>
+    <loc>https://classyjumbo.com/product/chips/flavour-classic-masala/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/jam/flavour-cherry</loc>
+    <loc>https://classyjumbo.com/product/chips/flavour-classic-salt/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/jam/flavour-strawberry</loc>
+    <loc>https://classyjumbo.com/product/chips/flavour-creamy-onion/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/peanut_butter</loc>
+    <loc>https://classyjumbo.com/product/chips/flavour-hot-and-spicy/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/peanut_butter/flavour-creamy</loc>
+    <loc>https://classyjumbo.com/product/chips/flavour-peri-peri/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/peanut_butter/flavour-crunchy</loc>
+    <loc>https://classyjumbo.com/product/chips/flavour-tangy-bbq/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/noodles</loc>
+    <loc>https://classyjumbo.com/product/chips/flavour-tangy-tomato/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/noodles/flavour-curry</loc>
+    <loc>https://classyjumbo.com/product/confectionery/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/noodles/flavour-masala</loc>
+    <loc>https://classyjumbo.com/product/confectionery/category-bubble-gum/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/noodles/flavour-vegetable</loc>
+    <loc>https://classyjumbo.com/product/confectionery/category-candy/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/chips</loc>
+    <loc>https://classyjumbo.com/product/confectionery/category-chocolate/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/chips/flavour-tangy tomato</loc>
+    <loc>https://classyjumbo.com/product/confectionery/category-jelly/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/chips/flavour-classic salt</loc>
+    <loc>https://classyjumbo.com/product/confectionery/category-lollipop/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/chips/flavour-hot and spicy</loc>
+    <loc>https://classyjumbo.com/product/confectionery/category-spread/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/chips/flavour-creamy onion</loc>
+    <loc>https://classyjumbo.com/product/confectionery/category-toffee/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/chips/flavour-chessy cheddar</loc>
+    <loc>https://classyjumbo.com/product/cookies/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/chips/flavour-tangy bbq</loc>
+    <loc>https://classyjumbo.com/product/cookies/flavour-almond/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/chips/flavour-chilli lemon</loc>
+    <loc>https://classyjumbo.com/product/cookies/flavour-cashew-pista/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/chips/flavour-classic masala</loc>
+    <loc>https://classyjumbo.com/product/cookies/flavour-cashew/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/chips/flavour-peri peri</loc>
+    <loc>https://classyjumbo.com/product/cookies/flavour-dry-fruit/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/confectionery</loc>
+    <loc>https://classyjumbo.com/product/cookies/flavour-pista/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/confectionery/category-chocolate</loc>
+    <loc>https://classyjumbo.com/product/cookies/flavour-tutti-frutti/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/confectionery/category-bubble gum</loc>
+    <loc>https://classyjumbo.com/product/food/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/confectionery/category-candy</loc>
+    <loc>https://classyjumbo.com/product/food/category-rice/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/confectionery/category-jelly</loc>
+    <loc>https://classyjumbo.com/product/food/category-tin-food/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/confectionery/category-toffee</loc>
+    <loc>https://classyjumbo.com/product/honey/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/cereals</loc>
+    <loc>https://classyjumbo.com/product/jam/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/cereals/category-mini choco balls</loc>
+    <loc>https://classyjumbo.com/product/jam/flavour-apricot/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/cereals/category-choco flakes</loc>
+    <loc>https://classyjumbo.com/product/jam/flavour-blueberry/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/cereals/category-corn flakes</loc>
+    <loc>https://classyjumbo.com/product/jam/flavour-cherry/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/product/cereals/category-fruit rings</loc>
+    <loc>https://classyjumbo.com/product/jam/flavour-mango/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/about</loc>
+    <loc>https://classyjumbo.com/product/jam/flavour-mix-fruits/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/policy</loc>
+    <loc>https://classyjumbo.com/product/jam/flavour-orange/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/contact</loc>
+    <loc>https://classyjumbo.com/product/jam/flavour-pineapple/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/distributor</loc>
+    <loc>https://classyjumbo.com/product/jam/flavour-strawberry/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/exportEnquiry</loc>
+    <loc>https://classyjumbo.com/product/noodles/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/more</loc>
+    <loc>https://classyjumbo.com/product/noodles/flavour-chicken/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/more/award</loc>
+    <loc>https://classyjumbo.com/product/noodles/flavour-curry/</loc>
   </url>
-
   <url>
-    <loc>https://classyjumbo.in/more/exhibition</loc>
+    <loc>https://classyjumbo.com/product/noodles/flavour-masala/</loc>
   </url>
-
+  <url>
+    <loc>https://classyjumbo.com/product/noodles/flavour-spicy-chicken/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/noodles/flavour-vegetable/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/oil/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/oil/category-mustard-oil/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/oil/category-olive-oil/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/oil/category-sunflower-oil/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/peanut-butter/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/peanut-butter/flavour-creamy/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/peanut-butter/flavour-crunchy/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/snacks/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/snacks/category-coffee/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/snacks/category-khari/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/snacks/category-rusk/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/snacks/category-tea/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/wafer/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/wafer/flavour-cappuccino/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/wafer/flavour-cheese-cream/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/wafer/flavour-chocolate/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/wafer/flavour-cookies-and-cream/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/wafer/flavour-hazelnut/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/wafer/flavour-mango/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/wafer/flavour-orange/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/wafer/flavour-oreo-and-cream/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/wafer/flavour-oreo/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/wafer/flavour-peanut-butter/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/wafer/flavour-pineapple/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/wafer/flavour-strawberry/</loc>
+  </url>
+  <url>
+    <loc>https://classyjumbo.com/product/wafer/flavour-vanilla/</loc>
+  </url>
 </urlset>
