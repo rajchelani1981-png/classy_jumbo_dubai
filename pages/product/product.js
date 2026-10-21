@@ -2,18 +2,93 @@
   let pageObj = {};
   let filterSequenceWithKey = ["category", "flavour"];
 
-  let fetchJsonDataLink = () => {
-    const hash = location.hash;
-    let jsonDataPageLink = "/json";
-    const parts = hash.replace("#/", "").split("/");
+  // let fetchJsonDataLink = () => {
+  //   const hash = location.hash;
+  //   let jsonDataPageLink = "/json";
+  //   const parts = hash.replace("#/", "").split("/");
 
-    //if json file name not found then
-    if(!parts[1])
-      return null;
+  //   //if json file name not found then
+  //   if(!parts[1])
+  //     return null;
 
-    jsonDataPageLink += `/${parts[1]}.json`;
-    return jsonDataPageLink;
+  //   jsonDataPageLink += `/${parts[1]}.json`;
+  //   return jsonDataPageLink;
+  // }
+
+  
+function getCurrentRouteParts() {
+  let path = window.location.pathname || "/";
+
+  // Support legacy URLs like /#/product/biscuits
+  if (window.location.hash.startsWith("#/")) {
+    path = window.location.hash.slice(1);
   }
+
+  path = path.replace(/^\/+|\/+$/g, "");
+
+  if (!path || path === "index.html") {
+    return ["home"];
+  }
+
+  return path.split("/");
+}
+
+// let fetchJsonDataLink = () => {
+//   const parts = getCurrentRouteParts();
+
+//   // /product/ => no detail JSON
+//   if (!parts[1]) {
+//     return null;
+//   }
+
+//   // /product/biscuits/ => /json/biscuits.json
+//   return `/json/${parts[1]}.json`;
+// };
+
+  function fetchJsonDataLink() {
+    const parts = getRouteParts();
+    console.log("line no 50 parts", parts);
+    // /product/ has no product JSON slug
+    if (!parts[1]) return null;
+
+    // /product/biscuits/ -> /json/biscuits.json
+    // /productDetail/biscuits/id-123/ -> /json/biscuits.json
+    return `/json/${parts[1]}.json`;
+  }
+
+// let fetchJsonDataLinkByLink = (link) => {
+//   // Handles either #/product/biscuits or /product/biscuits/
+//   let path = link || "";
+
+//   if (path.startsWith("#/")) {
+//     path = path.slice(1);
+//   }
+
+//   path = path.replace(/^\/+|\/+$/g, "");
+//   const parts = path.split("/");
+
+//   if (!parts[1]) {
+//     return null;
+//   }
+
+//   return `/json/${parts[1]}.json`;
+// };
+
+function fetchJsonDataLinkByLink(link) {
+  let path = link || "";
+
+  // Accept old hash-style menu links too
+  if (path.startsWith("#/")) {
+    path = path.slice(1);
+  }
+
+  const parts = path.replace(/^\/+|\/+$/g, "").split("/");
+
+  if (!parts[1]) return null;
+
+  return `/json/${parts[1]}.json`;
+}
+  
 
   let fetchProductData = async (dataPageLink) =>{
     try{
@@ -37,8 +112,7 @@
   }
 
   let filtersTheData = (data) => {
-    const hash = location.hash;
-    const parts = hash.replace("#/", "").split("/");
+    const parts = getCurrentRouteParts();
     
     for(let i = 2; i < parts.length; i++){
       let filter = parts[i].split("-");
@@ -81,8 +155,7 @@
   }
 
   let appendProducts = (data, grid) => {
-    const hash = location.hash;
-    const parts = hash.replace("#/", "").split("/");
+    const parts = getCurrentRouteParts();
 
     const fragment = document.createDocumentFragment();
 
@@ -200,14 +273,16 @@
     });
   }
 
-  let fetchJsonDataLinkByLink = (link) => {
-    const parts = link.replace("#/", "").split("/");
+  // let fetchJsonDataLinkByLink = (link) => {
+  //   const parts = link.replace("#/", "").split("/");
 
-    return `/json/${parts[1]}.json`;
-  }
+  //   return `/json/${parts[1]}.json`;
+  // }
 
   let loadTheProductData = async () => {
     let dataPageLink = fetchJsonDataLink();
+
+    console.log("dataPageLink", dataPageLink);
     let bannerImage = null;
     let list = null;
     let flag = true;
@@ -217,7 +292,7 @@
         await fetchProductData(dataPageLink);
       }
       let data = pageObj[dataPageLink];
-      
+      console.log("line no 297", data);
       bannerImage = data.bannerImage;
       list = data.list;
     }
@@ -225,8 +300,22 @@
       if(!menuData)
         await fetchMenu();
 
-      let productHash = location.hash;
-      let productMenu = menuData.find( e => e.route == productHash);
+      // let productHash = location.hash;
+      // let productMenu = menuData.find( e => e.route == productHash);
+
+      const parts = getCurrentRouteParts();
+      const currentRoute = "/" + parts.join("/") + "/";
+
+      const productMenu = menuData.find(e => {
+        if (!e.route) return false;
+
+        const menuRoute = e.route.startsWith("#/")
+          ? "/" + e.route.slice(2)
+          : e.route;
+
+        return menuRoute.replace(/\/+$/, "") ===
+              currentRoute.replace(/\/+$/, "");
+      });
 
       bannerImage = productMenu.bannerImage;
       list = productMenu.submenu;
@@ -237,6 +326,7 @@
 
     if(flag){
       let filteredData = filtersTheData(list);
+      console.log("filteredData", filteredData);
       productDataArrange(filteredData);
 
       // arrange for filter
@@ -280,7 +370,18 @@
       const card = e.target.closest(".product-card");
       if (!card) return;
 
-      location.hash = card.dataset.link;
+      // location.hash = card.dataset.link;
+      const target = card.dataset.link || "";
+
+      const cleanPath = target.startsWith("#/")
+        ? target.slice(1)
+        : target.startsWith("/")
+          ? target
+          : `/${target}`;
+
+      window.location.href = cleanPath.endsWith("/")
+        ? cleanPath
+        : `${cleanPath}/`;
     });
 
   }
@@ -296,7 +397,10 @@
   //with previous filter
   function updateTheHashWithPreviousData(changeFilter) {
     const hash = location.hash.replace(/^#\/?/, ""); // remove # or #/
-    const parts = hash.split("/").filter(Boolean);
+    const beforeFilterUrlSplit = getCurrentRouteParts();
+    const beforeFilterUrl = beforeFilterUrlSplit.join("/");
+
+    const parts = beforeFilterUrl.split("/").filter(Boolean);
     const changeParts = changeFilter.replace("/", "")
 
     const segmentSet = new Set(parts);

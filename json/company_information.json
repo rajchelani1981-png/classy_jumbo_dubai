@@ -9,7 +9,8 @@
         {
             "country" : "ae",
             "phone" : ["+971-56-9506776", "+971-50-2042697"],
-            "email" : "info@classyjumbo.com"
+            "email" : "info@classyjumbo.com",
+            "whatsapp": "971569506776"
         }
     ],
     "branches" : [

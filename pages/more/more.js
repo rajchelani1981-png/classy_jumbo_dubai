@@ -21,8 +21,8 @@ let pageTitleArrange = (title) => {
 let moreDataArrange = (data) =>{
     let awardContainer = document.querySelector(".award-container");
     awardContainer.innerHTML = "";
-    const hash = location.hash;
-    const parts = hash.replace("#/", "").split("/");
+
+    const parts = getCurrentRouteParts();
 
     data.forEach( e => {
         let pageLink = e.pageLink;
@@ -66,8 +66,19 @@ let loadTheMoreData = async () => {
         if(!menuData)
             await fetchMenu();
 
-        let productHash = location.hash;
-        let productMenu = menuData.find( e => e.route == productHash);
+        const parts = getCurrentRouteParts();
+        const currentRoute = "/" + parts.join("/") + "/";
+
+        const productMenu = menuData.find(e => {
+            if (!e.route) return false;
+
+            const menuRoute = e.route.startsWith("#/")
+            ? "/" + e.route.slice(2)
+            : e.route;
+
+            return menuRoute.replace(/\/+$/, "") ===
+                currentRoute.replace(/\/+$/, "");
+        });
 
         bannerImage = productMenu.bannerImage;
         list = productMenu.submenu;

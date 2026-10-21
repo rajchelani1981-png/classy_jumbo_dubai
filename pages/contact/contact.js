@@ -1,3 +1,4 @@
+
 let companyInformationForContact = async () => {
     companyAddressLoad();
     companyMailLinkLoad();
@@ -6,11 +7,23 @@ let companyInformationForContact = async () => {
     contactFormInit();
 }
 
-let contactFormInit = () =>{
+let contactFormInit = async () =>{
+    if(!companyFooterData)
+        await fetchCompanyFooterData();
 
     // contact form submission
     const form = document.querySelector("#contactForm");
     const statusText = document.getElementById("form-status");
+    //phone and email according to the country
+    let contact = companyFooterData.contact[0];
+    const companyPhoneNumbersHtml = (contact.phone || []).map(phone => `<p>📞 <a href="tel:${phone}">${phone}</a></p>`).join('');
+
+    let phoneLinks = document.getElementsByClassName("phone-link");
+
+    // Update all phone links
+    Array.from(phoneLinks).forEach(element => {
+        element.innerHTML = companyPhoneNumbersHtml;
+    });
 
     form.addEventListener("submit", async (e) => {
         e.preventDefault();
@@ -76,7 +89,7 @@ Phone: ${phone || "N/A"}
 
 Message:${message}`;
 
-        const waUrl = `https://wa.me/919772923303?text=${encodeURIComponent(waMessage)}`;
+        const waUrl = `https://wa.me/${contact.whatsapp}?text=${encodeURIComponent(waMessage)}`;
         window.open(waUrl, "_blank");
         form.reset();
     });

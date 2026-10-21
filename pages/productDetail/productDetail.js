@@ -240,12 +240,22 @@ let loadTheProductDetailData = async () => {
 
     /* DUPLICATE FOR LOOP */
     const loopData = [...otherProduct, ...otherProduct];
-    let hash = location.hash;
-    const parts = hash.replace("#/", "").split("/");
+    // let hash = location.hash;
+    // const parts = hash.replace("#/", "").split("/");
+    const parts = window.location.pathname
+      .replace(/^\/+|\/+$/g, "")
+      .split("/");
     
     /* RENDER */
+    // slider.innerHTML = loopData.map(p => `
+    //   <div class="related-card" onclick="location.href='#/productDetail/${parts[1]}/id-${p.id}'">
+    //     <img src="${p.thumbnail}">
+    //     <h4>${p.sub_flavour}</h4>
+    //     <span>${p.brand}</span>
+    //   </div>
+    // `).join("");
     slider.innerHTML = loopData.map(p => `
-      <div class="related-card" onclick="location.href='#/productDetail/${parts[1]}/id-${p.id}'">
+      <div class="related-card" onclick="location.href='/productDetail/${parts[1]}/id-${p.id}/'">
         <img src="${p.thumbnail}">
         <h4>${p.sub_flavour}</h4>
         <span>${p.brand}</span>
@@ -441,7 +451,7 @@ Best Regards
           <button class="enquiry-btn" id="openEnquiry">
             Enquiry Now
           </button>
-          <a href="https://wa.me/${contact.phone}?text=${message}" target="_blank" class="item">
+          <a href="https://wa.me/${contact.whatsapp}?text=${message}" target="_blank" class="item">
               <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
           </a>
         </div>

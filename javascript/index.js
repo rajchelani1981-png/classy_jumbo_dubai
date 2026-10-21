@@ -32,7 +32,7 @@ let companyMailLinkLoad = async () =>{
 
     document.querySelectorAll(".email-link").forEach(e => {
         let contactInfo = companyDataForLogo.contact.find(co => co.country == country);
-
+        console.log("contactInfo", contactInfo);
         e.innerHTML = `<a href="mailto:${contactInfo.email}">${contactInfo.email}</a>`
     });
 }
@@ -43,8 +43,9 @@ let companyPhoneLinkLoad = async () =>{
     
     document.querySelectorAll(".phone-link").forEach(e => {
         let contactInfo = companyDataForLogo.contact.find(co => co.country == country);
-
-        e.innerHTML = `<a href="tel:${contactInfo.phone}">${contactInfo.phone}</a>`
+        
+        const companyPhoneNumbersHtml = (contactInfo.phone || []).map(phone => `<p>📞 <a href="tel:${phone}">${phone}</a></p>`).join('');
+        e.innerHTML = companyPhoneNumbersHtml
     });
 }
 

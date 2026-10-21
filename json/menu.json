@@ -1,12 +1,12 @@
 [
     {
         "title": "Home",
-        "route": "#/home"
+        "route": "/home"
     },
     {
         "title": "Product",
         "type" : "product",
-        "route": "#/product",
+        "route": "/product",
         "bannerImage" : {
             "img": "/assets/image/sliding/products/products_desktop.jpg",
             "tablet_img" : "/assets/image/sliding/products/products_tablet.jpg",
@@ -18,357 +18,357 @@
         "submenu": [
             {
                 "title": "Biscuits",
-                "route": "#/product/biscuits",
+                "route": "/product/biscuits",
                 "submenu" : [
                     {
                         "title" : "Shortbread Butter Biscuits",
-                        "route" : "#/product/biscuits/flavour-shortbread butter"
+                        "route" : "/product/biscuits/flavour-shortbread butter"
                     },
                     {
                         "title" : "Cream Biscuits",
-                        "route" : "#/product/biscuits/category-cream"
+                        "route" : "/product/biscuits/category-cream"
                     },
                     {
                         "title" : "Biskoft",
-                        "route" : "#/product/biscuits/flavour-biskoft"
+                        "route" : "/product/biscuits/flavour-biskoft"
                     },
                     {
                         "title" : "Cookies",
-                        "route" : "#/product/biscuits/category-cookies"
+                        "route" : "/product/biscuits/category-cookies"
                     }
                 ]
             },
             {
                 "title": "Handmade Cookies",
-                "route": "#/product/cookies",
+                "route": "/product/cookies",
                 "submenu" : [
                     {
                         "title" : "Almond Cookies",
-                        "route" : "#/product/cookies/flavour-almond"
+                        "route" : "/product/cookies/flavour-almond"
                     },
                     {
                         "title" : "Cashew Cookies",
-                        "route" : "#/product/cookies/flavour-cashew"
+                        "route" : "/product/cookies/flavour-cashew"
                     },
                     {
                         "title" : "Cashew Pista Cookies",
-                        "route" : "#/product/cookies/flavour-cashew pista"
+                        "route" : "/product/cookies/flavour-cashew pista"
                     },
                     {
                         "title" : "Pista Cookies",
-                        "route" : "#/product/cookies/flavour-pista"
+                        "route" : "/product/cookies/flavour-pista"
                     },
                     {
                         "title" : "Dry Fruit Cookies",
-                        "route" : "#/product/cookies/flavour-dry fruit"
+                        "route" : "/product/cookies/flavour-dry fruit"
                     },
                     {
                         "title" : "Tutti Frutti Cookies",
-                        "route" : "#/product/cookies/flavour-tutti frutti"
+                        "route" : "/product/cookies/flavour-tutti frutti"
                     }
                 ]
             },
             {
                 "title": "Wafer",
-                "route": "#/product/wafer",
+                "route": "/product/wafer",
                 "submenu" : [
                     {
                         "title" : "Cheese Cream Wafer",
-                        "route" : "#/product/wafer/flavour-cheese cream"
+                        "route" : "/product/wafer/flavour-cheese cream"
                     },
                     {
                         "title" : "Chocolate Wafer",
-                        "route" : "#/product/wafer/flavour-chocolate"
+                        "route" : "/product/wafer/flavour-chocolate"
                     },
                     {
                         "title" : "Cookies & Cream Wafer",
-                        "route" : "#/product/wafer/flavour-cookies and cream"
+                        "route" : "/product/wafer/flavour-cookies and cream"
                     },
                     {
                         "title" : "Mango Wafer",
-                        "route" : "#/product/wafer/flavour-mango"
+                        "route" : "/product/wafer/flavour-mango"
                     },
                     {
                         "title" : "Orange Wafer",
-                        "route" : "#/product/wafer/flavour-orange"
+                        "route" : "/product/wafer/flavour-orange"
                     },
                     {
                         "title" : "Oreo & Cream Wafer",
-                        "route" : "#/product/wafer/flavour-oreo and cream"
+                        "route" : "/product/wafer/flavour-oreo and cream"
                     },
                     {
                         "title" : "Peanut Butter Wafer",
-                        "route" : "#/product/wafer/flavour-peanut butter"
+                        "route" : "/product/wafer/flavour-peanut butter"
                     },
                     {
                         "title" : "Pineapple Wafer",
-                        "route" : "#/product/wafer/flavour-Pineapple"
+                        "route" : "/product/wafer/flavour-Pineapple"
                     },
                     {
                         "title" : "Strawberry Wafer",
-                        "route" : "#/product/wafer/flavour-strawberry"
+                        "route" : "/product/wafer/flavour-strawberry"
                     },
                     {
                         "title" : "Vanilla Wafer",
-                        "route" : "#/product/wafer/flavour-vanilla"
+                        "route" : "/product/wafer/flavour-vanilla"
                     },
                     {
                         "title" : "Cappuccino Wafer",
-                        "route" : "#/product/wafer/flavour-cappuccino"
+                        "route" : "/product/wafer/flavour-cappuccino"
                     },
                     {
                         "title" : "Hazelnut Wafer",
-                        "route" : "#/product/wafer/flavour-hazelnut"
+                        "route" : "/product/wafer/flavour-hazelnut"
                     },
                     {
                         "title" : "Oreo Wafer",
-                        "route" : "#/product/wafer/flavour-oreo"
+                        "route" : "/product/wafer/flavour-oreo"
                     }
                 ]
             },
             {
                 "title": "Jam",
-                "route": "#/product/jam",
+                "route": "/product/jam",
                 "submenu": [
                     {
                         "title" : "Blueberry Jam",
-                        "route" : "#/product/jam/flavour-blueberry"
+                        "route" : "/product/jam/flavour-blueberry"
                     },
                     {
                         "title" : "Pineapple Jam",
-                        "route" : "#/product/jam/flavour-pineapple"
+                        "route" : "/product/jam/flavour-pineapple"
                     },
                     {
                         "title" : "Orange Jam",
-                        "route" : "#/product/jam/flavour-orange"
+                        "route" : "/product/jam/flavour-orange"
                     },
                     {
                         "title" : "Apricot Jam",
-                        "route" : "#/product/jam/flavour-apricot"
+                        "route" : "/product/jam/flavour-apricot"
                     },
                     {
                         "title" : "Mix Fruits Jam",
-                        "route" : "#/product/jam/flavour-mix fruits"
+                        "route" : "/product/jam/flavour-mix fruits"
                     },
                     {
                         "title" : "Mango Jam",
-                        "route" : "#/product/jam/flavour-mango"
+                        "route" : "/product/jam/flavour-mango"
                     },
                     {
                         "title" : "Cherry Jam",
-                        "route" : "#/product/jam/flavour-cherry"
+                        "route" : "/product/jam/flavour-cherry"
                     },
                     {
                         "title" : "Strawberry Jam",
-                        "route" : "#/product/jam/flavour-strawberry"
+                        "route" : "/product/jam/flavour-strawberry"
                     }
                 ]
             },
             {
                 "title": "Peanut Butter",
-                "route": "#/product/peanut_butter",
+                "route": "/product/peanut_butter",
                 "submenu": [
                     {
                         "title" : "Creamy Peanut Butter",
-                        "route" : "#/product/peanut_butter/flavour-creamy"
+                        "route" : "/product/peanut_butter/flavour-creamy"
                     },
                     {
                         "title" : "Crunchy Peanut Butter",
-                        "route" : "#/product/peanut_butter/flavour-crunchy"
+                        "route" : "/product/peanut_butter/flavour-crunchy"
                     }
                 ]
             },
             {
                 "title": "Noodles",
-                "route": "#/product/noodles",
+                "route": "/product/noodles",
                 "submenu": [
                     {
                         "title" : "Curry Noodles",
-                        "route" : "#/product/noodles/flavour-curry"
+                        "route" : "/product/noodles/flavour-curry"
                     },
                     {
                         "title" : "Masala Noodles",
-                        "route" : "#/product/noodles/flavour-masala"
+                        "route" : "/product/noodles/flavour-masala"
                     },
                     {
                         "title" : "Vegetable Noodles",
-                        "route" : "#/product/noodles/flavour-vegetable"
+                        "route" : "/product/noodles/flavour-vegetable"
                     },
                     {
                         "title" : "Chicken Noodles",
-                        "route" : "#/product/noodles/flavour-chicken"
+                        "route" : "/product/noodles/flavour-chicken"
                     },
                     {
                         "title" : "Spicy Chicken Noodles",
-                        "route" : "#/product/noodles/flavour-spicy chicken"
+                        "route" : "/product/noodles/flavour-spicy chicken"
                     }
                 ]
             },
             {
                 "title": "Chips",
-                "route": "#/product/chips",
+                "route": "/product/chips",
                 "submenu": [
                     {
                         "title" : "Tangy Tomato Chips",
-                        "route" : "#/product/chips/flavour-tangy tomato"
+                        "route" : "/product/chips/flavour-tangy tomato"
                     },
                     {
                         "title" : "Classic Salt Chips",
-                        "route" : "#/product/chips/flavour-classic salt"
+                        "route" : "/product/chips/flavour-classic salt"
                     },
                     {
                         "title" : "Hot & Spicy Chips",
-                        "route" : "#/product/chips/flavour-hot and spicy"
+                        "route" : "/product/chips/flavour-hot and spicy"
                     },
                     {
                         "title" : "Creamy Onion Chips",
-                        "route" : "#/product/chips/flavour-creamy onion"
+                        "route" : "/product/chips/flavour-creamy onion"
                     },
                     {
                         "title" : "Chessy Cheddar Chips",
-                        "route" : "#/product/chips/flavour-chessy cheddar"
+                        "route" : "/product/chips/flavour-chessy cheddar"
                     },
                     {
                         "title" : "Tangy BBQ Chips",
-                        "route" : "#/product/chips/flavour-tangy bbq"
+                        "route" : "/product/chips/flavour-tangy bbq"
                     },
                     {
                         "title" : "Chilli Lemon Chips",
-                        "route" : "#/product/chips/flavour-chilli lemon"
+                        "route" : "/product/chips/flavour-chilli lemon"
                     },
                     {
                         "title" : "Classic Masala Chips",
-                        "route" : "#/product/chips/flavour-classic masala"
+                        "route" : "/product/chips/flavour-classic masala"
                     },
                     {
                         "title" : "Peri Peri Chips",
-                        "route" : "#/product/chips/flavour-peri peri"
+                        "route" : "/product/chips/flavour-peri peri"
                     },
                     {
                         "title" : "Tin Chips",
-                        "route" : "#/product/chips/category-tin chips"
+                        "route" : "/product/chips/category-tin chips"
                     },
                     {
                         "title" : "Stick Chips",
-                        "route" : "#/product/chips/category-potato sticks"
+                        "route" : "/product/chips/category-potato sticks"
                     }
                 ]
             },
             {
                 "title": "Confectionery",
-                "route": "#/product/confectionery",
+                "route": "/product/confectionery",
                 "submenu": [
                     {
                         "title" : "Chocolate",
-                        "route" : "#/product/confectionery/category-chocolate"
+                        "route" : "/product/confectionery/category-chocolate"
                     },
                     {
                         "title" : "Bubble Gum",
-                        "route" : "#/product/confectionery/category-bubble gum"
+                        "route" : "/product/confectionery/category-bubble gum"
                     },
                     {
                         "title" : "Candy",
-                        "route" : "#/product/confectionery/category-candy"
+                        "route" : "/product/confectionery/category-candy"
                     },
                     {
                         "title" : "Jelly",
-                        "route" : "#/product/confectionery/category-jelly"
+                        "route" : "/product/confectionery/category-jelly"
                     },
                     {
                         "title" : "Toffee",
-                        "route" : "#/product/confectionery/category-toffee"
+                        "route" : "/product/confectionery/category-toffee"
                     },
                     {
                         "title" : "Lollipop",
-                        "route" : "#/product/confectionery/category-lollipop"
+                        "route" : "/product/confectionery/category-lollipop"
                     },
                     {
                         "title" : "Spread",
-                        "route" : "#/product/confectionery/category-spread"
+                        "route" : "/product/confectionery/category-spread"
                     }
                 ]
             },
             {
                 "title": "Cereals",
-                "route": "#/product/cereals",
+                "route": "/product/cereals",
                 "submenu": [
                     {
                         "title" : "Mini Choco Balls",
-                        "route" : "#/product/cereals/category-mini choco balls"
+                        "route" : "/product/cereals/category-mini choco balls"
                     },
                     {
                         "title" : "Choco Flakes",
-                        "route" : "#/product/cereals/category-choco flakes"
+                        "route" : "/product/cereals/category-choco flakes"
                     },
                     {
                         "title" : "Corn Flakes",
-                        "route" : "#/product/cereals/category-corn flakes"
+                        "route" : "/product/cereals/category-corn flakes"
                     },
                     {
                         "title" : "Fruit Rings",
-                        "route" : "#/product/cereals/category-fruit rings"
+                        "route" : "/product/cereals/category-fruit rings"
                     },
                     {
                         "title" : "Muesli",
-                        "route" : "#/product/cereals/category-muesli"
+                        "route" : "/product/cereals/category-muesli"
                     }
                 ]
             },
             {
                 "title": "Tea Time Snacks And Tea Coffee",
-                "route": "#/product/snacks",
+                "route": "/product/snacks",
                 "submenu": [
                     {
                         "title" : "Rusk",
-                        "route" : "#/product/snacks/category-rusk"
+                        "route" : "/product/snacks/category-rusk"
                     },
                     {
                         "title" : "Khari",
-                        "route" : "#/product/snacks/category-khari"
+                        "route" : "/product/snacks/category-khari"
                     },
                     {
                         "title" : "Tea",
-                        "route" : "#/product/snacks/category-tea"
+                        "route" : "/product/snacks/category-tea"
                     },
                     {
                         "title" : "Coffee",
-                        "route" : "#/product/snacks/category-coffee"
+                        "route" : "/product/snacks/category-coffee"
                     }
                 ]
             },
             {
                 "title": "Natural Honey",
-                "route": "#/product/honey"
+                "route": "/product/honey"
             },
             {
                 "title": "Food",
-                "route": "#/product/food",
+                "route": "/product/food",
                 "submenu": [
                     {
                         "title" : "Tin Food",
-                        "route" : "#/product/food/category-tin food"
+                        "route" : "/product/food/category-tin food"
                     },
                     {
                         "title" : "Rice",
-                        "route" : "#/product/food/category-rice"
+                        "route" : "/product/food/category-rice"
                     }
                 ]
             },
             {
                 "title": "Oil",
-                "route": "#/product/oil",
+                "route": "/product/oil",
                 "submenu": [
                     {
                         "title" : "Olive Oil",
-                        "route" : "#/product/oil/category-olive oil"
+                        "route" : "/product/oil/category-olive oil"
                     },
                     {
                         "title" : "Mustard Oil",
-                        "route" : "#/product/oil/category-mustard oil"
+                        "route" : "/product/oil/category-mustard oil"
                     },
                     {
                         "title" : "Sunflower Oil",
-                        "route" : "#/product/oil/category-sunflower oil"
+                        "route" : "/product/oil/category-sunflower oil"
                     }
                 ]
             }
@@ -376,37 +376,37 @@
     },
     {
         "title": "About Us",
-        "route": "#/about"
+        "route": "/about"
     },
     {
         "title": "Privacy Policy",
-        "route": "#/policy"
+        "route": "/policy"
     },
     {
         "title": "Contact",
         "type" : "contact",
-        "route": "#/contact"
+        "route": "/contact"
     },
     {
         "title" : "Become A Distributor",
-        "route" : "#/distributor"
+        "route" : "/distributor"
     },
     {
         "title" : "Export Enquiry",
-        "route" : "#/exportEnquiry"
+        "route" : "/exportEnquiry"
     },
     {
         "title" : "More",
-        "route" : "#/more",
+        "route" : "/more",
         "bannerImage" : "/assets/image/sliding/landing page sliding-1.jpg",
         "submenu" : [
             {
                 "title" : "Award",
-                "route" : "#/more/award"
+                "route" : "/more/award"
             },
             {
                 "title" : "Exhibition",
-                "route" : "#/more/exhibition"
+                "route" : "/more/exhibition"
             }
         ]
     }

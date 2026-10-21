@@ -12,6 +12,7 @@ let contactButtonInit = async () => {
 
     let contactWidget = document.getElementById("contact-widget");
     const message = encodeURI(`Hello! I want to know more about ${companyFooterData.parent_company_name}`);
+    const companyPhoneNumbersHtml = (contact.phone || []).map(phone => `<p>📞 <a href="tel:${phone}">${phone}</a></p>`).join('');
 
     contactWidget.innerHTML = `
         <div class="contact-toggle">
@@ -19,14 +20,12 @@ let contactButtonInit = async () => {
         </div>
 
         <div class="contact-panel">
-            <a href="https://wa.me/${contact.phone}?text=${message}" target="_blank" class="item">
+            <a href="https://wa.me/${contact.whatsapp}?text=${message}" target="_blank" class="item">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
                 <span>WhatsApp</span>
             </a>
 
-            <a href="tel:${contact.phone}" class="item phone">
-                📞 <span>${contact.phone}</span>
-            </a>
+            ${companyPhoneNumbersHtml}
 
             <a href="mailto:${contact.email}" class="item email">
                 ✉️ <span>${contact.email}</span>
